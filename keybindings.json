@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+enter",
+    "command": "editor.action.insertLineBefore",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  { "key": "alt+j", "command": "cursorLeft" },
+  { "key": "alt+;", "command": "cursorRight" },
+  { "key": "alt+k", "command": "cursorDown" },
+  { "key": "alt+l", "command": "cursorUp" },
+
+  {
+    "key": "shift+alt+j",
+    "command": "cursorHome",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "shift+alt+;",
+    "command": "cursorEnd",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "ctrl+alt+shift+l",
+    "command": "cursorTop",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "ctrl+alt+shift+k",
+    "command": "cursorBottom",
+    "when": "textInputFocus",
+  },
+]
