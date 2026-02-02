@@ -1,33 +1,67 @@
-// Place your key bindings in this file to override the defaults
 [
+  // =========================
+  // EDITOR — BASIC MOVE
+  // =========================
   {
-    "key": "ctrl+shift+enter",
-    "command": "editor.action.insertLineBefore",
-    "when": "editorTextFocus && !editorReadonly",
+    "key": "alt+j",
+    "command": "cursorLeft",
+    "when": "textInputFocus",
   },
-  { "key": "alt+j", "command": "cursorLeft" },
-  { "key": "alt+;", "command": "cursorRight" },
-  { "key": "alt+k", "command": "cursorDown" },
-  { "key": "alt+l", "command": "cursorUp" },
-
   {
-    "key": "shift+alt+j",
+    "key": "alt+k",
+    "command": "cursorDown",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorUp",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+;",
+    "command": "cursorRight",
+    "when": "textInputFocus",
+  },
+
+  // =========================
+  // EDITOR — HOME / END (BARIS)
+  // =========================
+  {
+    "key": "alt+shift+j",
     "command": "cursorHome",
     "when": "textInputFocus",
   },
   {
-    "key": "shift+alt+;",
+    "key": "alt+shift+;",
     "command": "cursorEnd",
     "when": "textInputFocus",
   },
+
+  // =========================
+  // EDITOR — TOP / BOTTOM FILE
+  // =========================
   {
-    "key": "ctrl+alt+shift+l",
+    "key": "shift+alt+l",
     "command": "cursorTop",
     "when": "textInputFocus",
   },
   {
-    "key": "ctrl+alt+shift+k",
+    "key": "shift+alt+k",
     "command": "cursorBottom",
     "when": "textInputFocus",
+  },
+
+  // =========================
+  // LIST / SIDEBAR / POPUP
+  // =========================
+  {
+    "key": "alt+l",
+    "command": "list.focusUp",
+    "when": "listFocus || sideBarFocus",
+  },
+  {
+    "key": "alt+k",
+    "command": "list.focusDown",
+    "when": "listFocus || sideBarFocus",
   },
 ]
