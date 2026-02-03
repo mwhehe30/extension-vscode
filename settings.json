@@ -5,7 +5,7 @@
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
   },
-  // "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.colorCustomizations": {
     "editorGroup.border": "#00000000",
@@ -13,16 +13,18 @@
     "editorGroup.dropBackground": "#00000000",
     "panel.border": "#00000000",
     "sideBar.border": "#00000000",
-    // "statusBar.background": "#4d9375",
-    // "statusBar.noFolderBackground": "#4d9375",
-    // "statusBar.debuggingBackground": "#4d9375",
-    // "statusBar.foreground": "#1F2335",
-    // "statusBar.debuggingForeground": "#1F2335",
+    "statusBar.background": "#4d9375",
+    "statusBar.noFolderBackground": "#4d9375",
+    "statusBar.debuggingBackground": "#4d9375",
+    "statusBar.foreground": "#1F2335",
+    "statusBar.debuggingForeground": "#1F2335",
     "scrollbarSlider.background": "#00000000",
     "scrollbarSlider.hoverBackground": "#00000000",
     "scrollbarSlider.activeBackground": "#00000000",
     "scrollbar.shadow": "#00000000",
     "terminal.border": "#00000000",
+    // "editorSuggestWidget.selectedForeground": "#b8a965",
+    "editorSuggestWidget.selectedForeground": "#4d9375",
   },
   "editor.selectionHighlight": false,
   "editor.occurrencesHighlight": "off",
@@ -60,7 +62,7 @@
   "editor.mouseWheelZoom": true,
   "editor.tabSize": 2,
 
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.3,
 
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.cursorBlinking": false,
@@ -79,9 +81,9 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "explorer.compactFolders": false,
-  "scm.diffDecorations": "all",
+  "scm.diffDecorations": "none",
+  "editor.lineNumbers": "relative",
   "explorer.confirmDragAndDrop": false,
-  "bladeFormatter.format.phpVersion": "8.3",
 
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
@@ -95,7 +97,6 @@
     },
   },
   "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
   "workbench.iconTheme": "material-icon-theme",
   "prettier.singleQuote": true,
   "files.eol": "\n",
@@ -104,4 +105,12 @@
   "fiveServer.php.executable": "C:\\laragon\\bin\\php\\php-8.3.28-Win32-vs16-x64\\php.exe",
   "fiveServer.php.ini": "C:\\laragon\\bin\\php\\php-8.3.28-Win32-vs16-x64\\php.ini",
   "workbench.colorTheme": "Vitesse Dark",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+  "editor.colorDecorators": false,
+  "editor.codeLens": false,
+  "editor.matchBrackets": "never",
+  "editor.parameterHints.enabled": false,
+
+  // dont forget to set Customize Layout > panel alignment to center and quick input position to center
 }
